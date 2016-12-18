@@ -3,7 +3,7 @@
 This is a test project with the Raspberry Pi 3 and (in my case) Adafruit Dotstar Ledstrip with 17 LEDs. Running this application will create a simple webserver on port 8080. With the simple webpage you are able to control the colors and brightness of the LEDs on the strip. Sliders are available for Red, Green, Blue, Intensity, Amount, Hue, Saturation and Brightness.
 
 ### Example
-Youtube exampe video over [here](https://youtu.be/LVlzwz-5Jfc)
+Youtube exampe video over [here](https://youtu.be/LVlzwz-5Jfc){:target="_blank"}
 
 ## Installation
 - run `npm install` in the root folder of the application
