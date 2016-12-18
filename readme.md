@@ -27,4 +27,4 @@ Make sure `IS_PI=false` on line 2 in `app.js`
 
 
 ## Usage
-You need sudo permissions to access the SPI ports on the Raspberry Pi. Run `sudo node app.js` in the root folder of the application. Go in your browser to the ip + port-number (e.g. `http://192.168.1.20:8080`) of your device and enjoy!
+You need sudo permissions to access the SPI ports on the Raspberry Pi. Run `sudo node app.js` in the root folder of the application. Go in your browser to the ip + port-number of your device (e.g. `http://192.168.1.20:8080`) and enjoy!
