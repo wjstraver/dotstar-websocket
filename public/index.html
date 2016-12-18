@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dotstar Websocket</title>
+		<meta name="keywords" content="Raspberry Pi, Dotstar, Adafruit, NodeJS, Websocket"/>
+		<meta name="author" content="WJ Straver"/>
+		<meta name="description" content="Raspberry Pi Dotstar LEDs NodeJS Websocket test."/>
+		<!-- <link rel="canonical" href="http://magicbullet.nl" /> -->
+
+		<!-- Page Settings -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+
+		<link rel="stylesheet" type="text/css" href="style/main.css">
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+		<div id="application">
+			<!-- Begin Header -->
+			<header id="header">
+				<div class="main-header">
+					<h1>Dotstar Websocket</h1>
+				</div>
+				<div class="sub-header">
+					<h2>Websocket Status:&nbsp;<span id="websocketStatus">Connecting<span></h2>
+				</div>
+			</header>
+			<!-- End Header -->
+			<!-- Begin Main -->
+			<main id="main">
+				<div id="controls">
+					<div id="red">
+						<h3>Red</h3>
+						<div class="slider" data-type="r" data-min="0" data-max="255">
+							<div class="filler">
+								<div class="border"></div>
+							</div>
+						</div>
+					</div>
+					<div id="green">
+						<h3>Green</h3>
+						<div class="slider" data-type="g" data-min="0" data-max="255">
+							<div class="filler">
+								<div class="border"></div>
+							</div>
+						</div>
+					</div>
+					<div id="blue">
+						<h3>Blue</h3>
+						<div class="slider" data-type="b" data-min="0" data-max="255">
+							<div class="filler">
+								<div class="border"></div>
+							</div>
+						</div>
+					</div>
+					<div id="intensity">
+						<h3>Intensity</h3>
+						<div class="slider" data-type="i" data-min="0" data-max="1">
+							<div class="filler">
+								<div class="border"></div>
+							</div>
+						</div>
+					</div>
+					<div id="amount">
+						<h3>Amount</h3>
+						<div class="slider" data-type="a" data-min="0" data-max="17">
+							<div id="amountSliderFiller" class="filler">
+								<div class="border"></div>
+							</div>
+						</div>
+					</div>
+					<div id="hue">
+						<h3>Hue</h3>
+						<div class="slider" data-type="h" data-min="0" data-max="255">
+							<div class="filler">
+								<div class="border"></div>
+							</div>
+						</div>
+					</div>
+					<div id="saturation">
+						<h3>Saturation</h3>
+						<div class="slider" data-type="s" data-min="0" data-max="100">
+							<div class="filler">
+								<div class="border"></div>
+							</div>
+						</div>
+					</div>
+					<div id="value">
+						<h3>Brightness</h3>
+						<div class="slider" data-type="v" data-min="0" data-max="100">
+							<div class="filler">
+								<div class="border"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<!-- End Main -->
+		</div>		
+
+		<script>
+	
+		</script>
+	</body>
+</html>
